@@ -20,27 +20,24 @@ Watts Up Series watt meters.</Property>
 			<Item Name="Reset Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Reset Meter Data.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
-			<Item Name="Low Level" Type="Folder">
-				<Item Name="Configure_Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Low Level/Configure_Low Level.mnu"/>
+			<Item Name=".Net" Type="Folder">
+				<Item Name="Configure Basic Network Connection.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/NET/Configure Basic Network Connection.vi"/>
+				<Item Name="Configure Extended Network Connection.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/NET/Configure Extended Network Connection.vi"/>
 			</Item>
 			<Item Name="Configure.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure.mnu"/>
 			<Item Name="Configure Data Logging.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure Data Logging.vi"/>
 			<Item Name="Configure Memory Handling.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure Memory Handling.vi"/>
 			<Item Name="Configure User Parameters.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure User Parameters.vi"/>
 			<Item Name="Configure Items To Log.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure Items To Log.vi"/>
-			<Item Name="Configure Basic Network Connection.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure Basic Network Connection.vi"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
 				<Item Name="Data_Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Low Level/Data_Low Level.mnu"/>
-				<Item Name="Fetch Multiple Points.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Low Level/Fetch Multiple Points.vi"/>
-				<Item Name="Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Low Level/Initiate.vi"/>
-				<Item Name="Send Software Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Low Level/Send Software Trigger.vi"/>
+				<Item Name="Read Log Info.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Low Level/Read Log Info.vi"/>
+				<Item Name="Read Record.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Low Level/Read Record.vi"/>
 			</Item>
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Data.mnu"/>
-			<Item Name="Read (Multiple Points).vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Read (Multiple Points).vi"/>
-			<Item Name="Read (Single Point).vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Read (Single Point).vi"/>
-			<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Read.vi"/>
+			<Item Name="Read Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Read Meter Data.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Utility/Utility.mnu"/>

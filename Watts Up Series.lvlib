@@ -16,17 +16,19 @@ Watts Up Series watt meters.</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Action-Status" Type="Folder">
+			<Item Name=".Net" Type="Folder"/>
 			<Item Name="Action-Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Action-Status.mnu"/>
 			<Item Name="Reset Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Reset Meter Data.vi"/>
+			<Item Name="Save Log File.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Save Log File.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name=".Net" Type="Folder">
-				<Item Name="Configure Basic Network Connection.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/NET/Configure Basic Network Connection.vi"/>
-				<Item Name="Configure Extended Network Connection.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/NET/Configure Extended Network Connection.vi"/>
+				<Item Name="Configure Basic Network Connection.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Net/Configure Basic Network Connection.vi"/>
+				<Item Name="Configure Extended Network Connection.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Net/Configure Extended Network Connection.vi"/>
 			</Item>
 			<Item Name="Configure.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure.mnu"/>
 			<Item Name="Configure Data Logging.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure Data Logging.vi"/>
-			<Item Name="Configure Memory Handling.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure Memory Handling.vi"/>
+			<Item Name="Configure Memory Full Handling.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure Memory Full Handling.vi"/>
 			<Item Name="Configure User Parameters.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure User Parameters.vi"/>
 			<Item Name="Configure Items To Log.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Configure Items To Log.vi"/>
 		</Item>
@@ -38,6 +40,7 @@ Watts Up Series watt meters.</Property>
 			</Item>
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Data.mnu"/>
 			<Item Name="Read Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Read Meter Data.vi"/>
+			<Item Name="Read Interval.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Data/Read Interval.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Utility/Utility.mnu"/>

@@ -8,6 +8,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Graph Logged Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Graph Logged Meter Data.vi"/>
+			<Item Name="Save Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Save Meter Data.vi"/>
 		</Item>
 		<Item Name="Watts Up Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Watts Up Series/Watts Up Series.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">

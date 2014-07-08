@@ -16,7 +16,9 @@ Watts Up Series watt meters.</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Action-Status" Type="Folder">
-			<Item Name=".Net" Type="Folder"/>
+			<Item Name=".Net" Type="Folder">
+				<Item Name="Save Network Settings.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Net/Save Network Settings.vi"/>
+			</Item>
 			<Item Name="Action-Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Action-Status.mnu"/>
 			<Item Name="Reset Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Reset Meter Data.vi"/>
 			<Item Name="Save Log File.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Save Log File.vi"/>
@@ -44,7 +46,6 @@ Watts Up Series watt meters.</Property>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Utility/Utility.mnu"/>
-			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Utility/Error Query.vi"/>
 			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Utility/Revision Query.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Utility/Self-Test.vi"/>

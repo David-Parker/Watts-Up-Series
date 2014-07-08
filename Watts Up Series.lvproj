@@ -9,6 +9,7 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Graph Logged Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Graph Logged Meter Data.vi"/>
 			<Item Name="Save Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Save Meter Data.vi"/>
+			<Item Name="Setup Meter Logging.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Setup Meter Logging.vi"/>
 		</Item>
 		<Item Name="Watts Up Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Watts Up Series/Watts Up Series.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -44,6 +45,9 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Utility/Error Query.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

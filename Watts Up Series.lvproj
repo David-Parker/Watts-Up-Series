@@ -7,9 +7,10 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Graph Logged Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Graph Logged Meter Data.vi"/>
-			<Item Name="Save Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Save Meter Data.vi"/>
-			<Item Name="Setup Meter Logging.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Setup Meter Logging.vi"/>
+			<Item Name="Watts Up Series Graph Logged Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series Graph Logged Meter Data.vi"/>
+			<Item Name="Watts Up Series Real Time Graph.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series Real Time Graph.vi"/>
+			<Item Name="Watts Up Series Save Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series Save Meter Data.vi"/>
+			<Item Name="Watts Up Series Setup Meter Logging.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series Setup Meter Logging.vi"/>
 			<Item Name="Watts Up Series.bin3" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series.bin3"/>
 		</Item>
 		<Item Name="Watts Up Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Watts Up Series/Watts Up Series.lvlib"/>

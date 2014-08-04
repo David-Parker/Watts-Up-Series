@@ -8,22 +8,22 @@ Watts Up Series watt meters.</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Private/Default Instrument Setup.vi"/>
-	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Action-Status" Type="Folder">
 			<Item Name=".Net" Type="Folder">
+				<Item Name="Net.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Net/Net.mnu"/>
 				<Item Name="Save Network Settings.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Net/Save Network Settings.vi"/>
+				<Item Name="Operate Relay.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Net/Operate Relay.vi"/>
 			</Item>
 			<Item Name="Action-Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Action-Status.mnu"/>
+			<Item Name="Cancel Current Operations.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Cancel Current Operations.vi"/>
 			<Item Name="Reset Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Reset Meter Data.vi"/>
 			<Item Name="Save Log File.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Action-Status/Save Log File.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name=".Net" Type="Folder">
+				<Item Name="Net.mnu" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Net/Net.mnu"/>
 				<Item Name="Configure Basic Network Connection.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Net/Configure Basic Network Connection.vi"/>
 				<Item Name="Configure Extended Network Connection.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Configure/Net/Configure Extended Network Connection.vi"/>
 			</Item>
@@ -54,6 +54,5 @@ Watts Up Series watt meters.</Property>
 		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Initialize.vi"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/VI Tree.vi"/>
 	</Item>
-	<Item Name="Blank VI.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Public/Blank VI.vi"/>
 	<Item Name="Watts Up Series Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Watts Up Series Readme.html"/>
 </Library>

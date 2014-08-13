@@ -7,13 +7,13 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Watts Up Series Graph Logged Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series Graph Logged Meter Data.vi"/>
-			<Item Name="Watts Up Series Real Time Graph.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series Real Time Graph.vi"/>
-			<Item Name="Watts Up Series Save Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series Save Meter Data.vi"/>
-			<Item Name="Watts Up Series Setup Meter Logging.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series Setup Meter Logging.vi"/>
-			<Item Name="Watts Up Series.bin3" Type="Document" URL="/&lt;instrlib&gt;/Watts Up Series/Examples/Watts Up Series.bin3"/>
+			<Item Name="Watts Up PRO Net Series.bin3" Type="Document" URL="/&lt;instrlib&gt;/Watts Up PRO Net Series/Examples/Watts Up PRO Net Series.bin3"/>
+			<Item Name="Watts Up PRO Net Series Graph Logged Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up PRO Net Series/Examples/Watts Up PRO Net Series Graph Logged Meter Data.vi"/>
+			<Item Name="Watts Up PRO Net Series Real Time Graph.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up PRO Net Series/Examples/Watts Up PRO Net Series Real Time Graph.vi"/>
+			<Item Name="Watts Up PRO Net Series Save Meter Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up PRO Net Series/Examples/Watts Up PRO Net Series Save Meter Data.vi"/>
+			<Item Name="Watts Up PRO Net Series Setup Meter Logging.vi" Type="VI" URL="/&lt;instrlib&gt;/Watts Up PRO Net Series/Examples/Watts Up PRO Net Series Setup Meter Logging.vi"/>
 		</Item>
-		<Item Name="Watts Up Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Watts Up Series/Watts Up Series.lvlib"/>
+		<Item Name="Watts Up PRO Net Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Watts Up PRO Net Series/Watts Up PRO Net Series.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
